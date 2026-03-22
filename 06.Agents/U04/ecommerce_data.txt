@@ -1,0 +1,4 @@
+Global E-Commerce Platform
+We specialize in all types of mobile phones.
+To place an order, you must provide the product SKU.
+To inquire about an order, you must provide the order ID.
