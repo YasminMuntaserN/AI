@@ -1,9 +1,12 @@
-# استيراد أدوات الخادم
-# هلا هاي معناها بدنا نجيب كل الداتا من الملف الي اسمو weather_server
+# Import all tools and resources from the weather server
+# This allows us to reuse the MCP server instance and tools
 from weather_server import *
 
-# موجه النموذج اللغوي
-@mcp.prompt(name="weather_classifier", description="Classifies natural query into a weather tool call JSON, using context if needed.")
+# MCP Prompt (LLM instruction)
+@mcp.prompt(
+    name="weather_classifier",
+    description="Classifies natural user input into a weather tool call JSON using conversation context."
+)
 def weather_classifier_prompt(natural_input: str):
     return f"""
 You are a helpful AI that converts multi-turn user conversations into structured tool calls.
@@ -31,5 +34,6 @@ Conversation so far:
 {natural_input}
 """
 
+# Start MCP server
 if __name__ == "__main__":
     mcp.run(transport="stdio")
