@@ -146,26 +146,26 @@ uv run .\ecommerce_Telegram_client.py
 ## 🧪 Example Use Cases
 
 ### Search Products
-![Search Products](assets/c_Search products.png)
-![Bot Greeting](assets/Search products.png)
+![Search Products](assets/c_Search%20products.png)
+![Bot Greeting](assets/Search%20products.png)
 
 
 ### Add Order
-![Add Order](assets/c_add order.png)
-![Add Order](assets/add order.png)
+![Add Order](assets/c_add%20order.png)
+![Add Order](assets/add%20order.png)
 
 
 ### Cancel Order
-![Cancel Order](assets/cancle order.png)
-![Cancel Order](assets/c_cancle order.png)
+![Cancel Order](assets/cancle%20order.png)
+![Cancel Order](assets/c_cancle%20order.png)
 
 
 ### Track Order
-![Track Order](assets/c_track order.png)
+![Track Order](assets/c_track%20order.png)
 
 ### List User Orders
-![List Orders](assets/list orders.png)
-![List Orders](assets/c_list orders.png)
+![List Orders](assets/list%20orders.png)
+![List Orders](assets/c_list%20orders.png)
 
 
 ---
