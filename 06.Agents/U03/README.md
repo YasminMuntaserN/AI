@@ -22,20 +22,21 @@ The project shows how to:
 ---
 
 # System Architecture
-
-User
-↓
-Client Application
-↓
-LLM (Reasoning Layer)
-↓
-MCP Client Session
-↓
-MCP Weather Server
-↓
-Weather Tools
-↓
-OpenWeatherMap API
+```
+   User
+     ↓
+   Client Application
+     ↓
+   LLM (Reasoning Layer)
+     ↓
+   MCP Client Session
+     ↓
+   MCP Weather Server
+     ↓
+   Weather Tools
+     ↓
+   OpenWeatherMap API
+```
 
 The **LLM decides what action to take**, while the **MCP server executes the tools**.
 
@@ -146,9 +147,8 @@ A simple command-line client allows the user to:
 
 The client directly calls MCP tools.
 
-<div align="center">
-    <img src="https://imgur.com/A1PQswv.jpg" alt="User Dashboard" />
-</div>
+![Search Products](assets/CLI1.png)
+![Bot Greeting](assets/CLI2.png)
 
 ---
 
@@ -163,15 +163,9 @@ Claude can then automatically:
 - integrate results
 
 This allows Claude to function as an **AI weather agent**.
-<div align="center">
-    <img src="https://imgur.com/A1PQswv.jpg" alt="User Dashboard" />
-</div>
-<div align="center">
-    <img src="https://imgur.com/A1PQswv.jpg" alt="User Dashboard" />
-</div>
-<div align="center">
-    <img src="https://imgur.com/A1PQswv.jpg" alt="User Dashboard" />
-</div>
+
+![Search Products](assets/c_weather1.png)
+![Bot Greeting](assets/c_weather2.png)
 
 ---
 
@@ -188,9 +182,8 @@ Workflow:
 5. Result returned to the user  
 
 This allows building **local AI agents without cloud APIs**.
-<div align="center">
-    <img src="https://imgur.com/A1PQswv.jpg" alt="User Dashboard" />
-  </div>
+
+![Search Products](assets/Ollama.png)
 
 ---
 
