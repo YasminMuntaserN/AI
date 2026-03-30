@@ -95,7 +95,6 @@ async def classify_and_execute(user_id: str, message: str) -> str:
 
                 prompt_text = prompt.messages[0].content.text
 
-                # 🔥 IMPORTANT: Use YOUR LOCAL MODEL
                 response = ollama.chat(
                     model="llama3.1-8b-local",
                     messages=[
